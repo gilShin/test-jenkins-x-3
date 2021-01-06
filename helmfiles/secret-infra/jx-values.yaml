@@ -28,6 +28,7 @@ jxRequirements:
     gitName: github
     gitServer: https://github.com
     provider: minikube
+    registry: 10.103.242.205
   environments:
   - key: dev
     owner: gilShin
