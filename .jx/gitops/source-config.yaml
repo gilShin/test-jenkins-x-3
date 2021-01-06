@@ -8,6 +8,7 @@ spec:
     provider: https://github.com
     providerKind: github
     repositories:
+    - name: cars-rest-api
     - name: test-app
     - name: test-app2
     scheduler: in-repo
