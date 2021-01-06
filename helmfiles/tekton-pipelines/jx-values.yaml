@@ -30,16 +30,20 @@ jxRequirements:
     provider: minikube
   environments:
   - key: dev
+    owner: gilShin
+    repository: test-jenkins-x-3
   - key: staging
   - key: production
   ingress:
-    domain: ""
+    domain: 192.168.99.100.nip.io
     externalDNS: false
     namespaceSubDomain: -tekton-pipelines.
     tls:
       email: ""
       enabled: false
       production: false
+  pipelineUser:
+    username: gilShin
   repository: bucketrepo
   secretStorage: vault
   vault: {}
