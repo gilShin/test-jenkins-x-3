@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: gilShin
+    provider: github
+    repository: test-app2
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: gilshin-test-app2
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/gilShin/test-app2.git
+  org: gilShin
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: test-app2
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/gilShin/test-app2

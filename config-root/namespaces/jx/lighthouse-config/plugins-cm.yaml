@@ -6,6 +6,18 @@ data:
       repos:
       - gilShin/test-jenkins-x-3
       require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - gilShin/cars-rest-api
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - gilShin/test-app
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - gilShin/test-app2
+      require_self_approval: true
     cat: {}
     cherry_pick_unapproved: {}
     config_updater:
@@ -20,6 +32,54 @@ data:
       additional_labels: null
     owners: {}
     plugins:
+      gilShin/cars-rest-api:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      gilShin/test-app:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      gilShin/test-app2:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
       gilShin/test-jenkins-x-3:
       - config-updater
       - approve
@@ -49,6 +109,17 @@ data:
     - repos:
       - gilShin/test-jenkins-x-3
       trusted_org: todo
+    - repos:
+      - gilShin/cars-rest-api
+      trusted_org: todo
+    - repos:
+      - gilShin/test-app
+      trusted_org: todo
+    - repos:
+      - gilShin/test-app2
+      trusted_org: todo
+    welcome:
+    - message_template: Welcome
 kind: ConfigMap
 metadata:
   creationTimestamp: null
