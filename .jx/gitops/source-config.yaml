@@ -9,4 +9,5 @@ spec:
     providerKind: github
     repositories:
     - name: test-app
+    - name: test-app2
     scheduler: in-repo
