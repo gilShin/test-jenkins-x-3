@@ -7,6 +7,7 @@ data:
       LinkURL: null
     in_repo_config:
       enabled:
+        gilShin/awsomeNode: true
         gilShin/cars-rest-api: true
         gilShin/test-app: true
         gilShin/test-app2: true
@@ -22,6 +23,7 @@ data:
         required-if-present-contexts: null
         skip-unknown-contexts: false
       merge_method:
+        gilShin/awsomeNode: merge
         gilShin/cars-rest-api: merge
         gilShin/test-app: merge
         gilShin/test-app2: merge
@@ -37,6 +39,7 @@ data:
         - needs-rebase
         repos:
         - gilShin/test-jenkins-x-3
+        - gilShin/awsomeNode
         - gilShin/cars-rest-api
         - gilShin/test-app
         - gilShin/test-app2
@@ -50,6 +53,7 @@ data:
         - needs-rebase
         repos:
         - gilShin/test-jenkins-x-3
+        - gilShin/awsomeNode
         - gilShin/cars-rest-api
         - gilShin/test-app
         - gilShin/test-app2
