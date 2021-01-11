@@ -12,6 +12,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - gilShin/awsomenode2
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - gilShin/cars-rest-api
       require_self_approval: true
     - lgtm_acts_as_approve: true
@@ -37,6 +41,22 @@ data:
     owners: {}
     plugins:
       gilShin/awsomeNode:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      gilShin/awsomenode2:
       - approve
       - assign
       - blunderbuss
@@ -131,6 +151,9 @@ data:
       trusted_org: todo
     - repos:
       - gilShin/awsomeNode
+      trusted_org: todo
+    - repos:
+      - gilShin/awsomenode2
       trusted_org: todo
     - repos:
       - gilShin/cars-rest-api
