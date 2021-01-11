@@ -9,6 +9,7 @@ spec:
     providerKind: github
     repositories:
     - name: awsomeNode
+    - name: awsomenode2
     - name: cars-rest-api
     - name: test-app
     - name: test-app2
