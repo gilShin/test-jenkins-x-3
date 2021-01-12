@@ -20,6 +20,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - gilShin/gil-test
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - gilShin/test-app
       require_self_approval: true
     - lgtm_acts_as_approve: true
@@ -73,6 +77,22 @@ data:
       - dog
       - pony
       gilShin/cars-rest-api:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      gilShin/gil-test:
       - approve
       - assign
       - blunderbuss
@@ -157,6 +177,9 @@ data:
       trusted_org: todo
     - repos:
       - gilShin/cars-rest-api
+      trusted_org: todo
+    - repos:
+      - gilShin/gil-test
       trusted_org: todo
     - repos:
       - gilShin/test-app
