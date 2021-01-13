@@ -12,6 +12,7 @@ data:
         gilShin/cars-rest-api: true
         gilShin/gil-test: true
         gilShin/gil-test3: true
+        gilShin/gil-test5: true
         gilShin/test-app: true
         gilShin/test-app2: true
         gilShin/test-jenkins-x-3: true
@@ -31,6 +32,7 @@ data:
         gilShin/cars-rest-api: merge
         gilShin/gil-test: merge
         gilShin/gil-test3: merge
+        gilShin/gil-test5: merge
         gilShin/test-app: merge
         gilShin/test-app2: merge
         gilShin/test-jenkins-x-3: merge
@@ -50,6 +52,7 @@ data:
         - gilShin/cars-rest-api
         - gilShin/gil-test
         - gilShin/gil-test3
+        - gilShin/gil-test5
         - gilShin/test-app
         - gilShin/test-app2
       - labels:
@@ -67,6 +70,7 @@ data:
         - gilShin/cars-rest-api
         - gilShin/gil-test
         - gilShin/gil-test3
+        - gilShin/gil-test5
         - gilShin/test-app
         - gilShin/test-app2
       target_url: http://dashboard-jx.192.168.99.100.nip.io
