@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: gilShin
+    provider: github
+    repository: gil-test5
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: gilshin-gil-test5
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/gilShin/gil-test5.git
+  org: gilShin
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: gil-test5
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/gilShin/gil-test5
